@@ -72,31 +72,31 @@ config.RTU_DEVICES = {
 }
 -- RTU redstone interface definitions
 config.RTU_REDSTONE = {
-    {
-        for_reactor = 1,
-        io = {
-            {
-                port = rsio.IO.WASTE_PO,
-                side = "top",
-                bundled_color = colors.red
-            },
-            {
-                port = rsio.IO.WASTE_PU,
-                side = "top",
-                bundled_color = colors.orange
-            },
-            {
-                port = rsio.IO.WASTE_POPL,
-                side = "top",
-                bundled_color = colors.yellow
-            },
-            {
-                port = rsio.IO.WASTE_AM,
-                side = "top",
-                bundled_color = colors.lime
-            }
-        }
-    }
+--    {
+--       for_reactor = 1,
+--       io = {
+--            {
+--                port = rsio.IO.WASTE_PO,
+--                side = "top",
+--                bundled_color = colors.red
+--            },
+--            {
+--                port = rsio.IO.WASTE_PU,
+--                side = "top",
+--                bundled_color = colors.orange
+--            },
+--            {
+--               port = rsio.IO.WASTE_POPL,
+--                side = "top",
+--                bundled_color = colors.yellow
+--            },
+--            {
+--                port = rsio.IO.WASTE_AM,
+--                side = "top",
+--                bundled_color = colors.lime
+--            }
+--        }
+--    }
 }
 
 return config
